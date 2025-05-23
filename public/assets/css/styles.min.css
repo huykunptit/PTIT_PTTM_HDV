@@ -15818,11 +15818,9 @@ textarea.form-control-lg {
   width: 100%;
   background: var(--bs-body-bg);
   padding: 0 10px;
-  top: 65px;
 }
 @media (max-width: 991.98px) {
   .app-header {
-    top: 131px;
   }
 }
 .app-header .container-fluid, .app-header .container-sm, .app-header .container-md, .app-header .container-lg, .app-header .container-xl, .app-header .container-xxl {
@@ -15931,11 +15929,9 @@ body {
 
 #main-wrapper[data-layout=vertical][data-sidebar-position=fixed] .left-sidebar {
   position: fixed;
-  top: 65px;
 }
 @media (max-width: 991.98px) {
   #main-wrapper[data-layout=vertical][data-sidebar-position=fixed] .left-sidebar {
-    top: 131px;
   }
 }
 #main-wrapper[data-layout=vertical][data-header-position=fixed] .app-header {
