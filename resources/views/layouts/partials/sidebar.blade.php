@@ -51,7 +51,7 @@
         </li>
         <li class="nav-small-cap">
           <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
-          <span class="hide-menu">Apps</span>
+          <span class="hide-menu">Quản lý</span>
         </li>
         <li class="sidebar-item">
           <a class="sidebar-link justify-content-between has-arrow" href="javascript:void(0)" aria-expanded="false">
@@ -59,7 +59,7 @@
               <span class="d-flex">
                 <i class="ti ti-basket"></i>
               </span>
-              <span class="hide-menu">Ecommerce</span>
+              <span class="hide-menu">Danh mục</span>
             </div>
           </a>
           <ul aria-expanded="false" class="collapse first-level">
@@ -69,7 +69,7 @@
                   <div class="round-16 d-flex align-items-center justify-content-center">
                     <i class="ti ti-circle"></i>
                   </div>
-                  <span class="hide-menu">Shop</span>
+                  <span class="hide-menu">Danh sách danh mục</span>
                 </div>
               </a>
             </li>
@@ -136,13 +136,13 @@
           <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
           <span class="hide-menu">UI</span>
         </li>
-        <li class="sidebar-item">
+        {{-- <li class="sidebar-item">
           <a class="sidebar-link" href="{{ route('ui.buttons') }}" aria-expanded="false">
             <i class="ti ti-layers-subtract"></i>
             <span class="hide-menu">Buttons</span>
           </a>
-        </li>
-        <li class="sidebar-item">
+        </li> --}}
+        {{-- <li class="sidebar-item">
           <a class="sidebar-link" href="{{ route('ui.alerts') }}" aria-expanded="false">
             <i class="ti ti-alert-circle"></i>
             <span class="hide-menu">Alerts</span>
@@ -165,7 +165,7 @@
             <i class="ti ti-typography"></i>
             <span class="hide-menu">Typography</span>
           </a>
-        </li>
+        </li> --}}
 
         <li>
           <span class="sidebar-divider lg"></span>
@@ -194,7 +194,7 @@
           <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
           <span class="hide-menu">Extra</span>
         </li>
-        <li class="sidebar-item">
+        {{-- <li class="sidebar-item">
           <a class="sidebar-link" href="{{ route('sample-page') }}" aria-expanded="false">
             <i class="ti ti-file"></i>
             <span class="hide-menu">Sample Page</span>
@@ -211,7 +211,7 @@
             <i class="ti ti-file-text"></i>
             <span class="hide-menu">Documentation</span>
           </a>
-        </li>
+        </li> --}}
       </ul>
     </nav>
   </div>
