@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
-@section('title', 'Flexy Free Bootstrap Admin Template by WrapPixel')
+@section('title', 'Cyber Game by WrapPixel')
 
 @push('styles')
-<link rel="shortcut icon" type="image/png" href="{{ asset('assets/images/logos/favicon.png') }}" />
+<link rel="shortcut icon" type="image/png" href="{{ asset('assets/images/logos/logo.webp.png') }}" />
 <link rel="stylesheet" href="{{ asset('assets/css/styles.min.css') }}" />
 @endpush
 
