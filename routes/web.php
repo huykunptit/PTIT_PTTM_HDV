@@ -16,7 +16,7 @@ use App\Http\Controllers\CategoryController;
 */
 
 Route::get('/', function () {
-    return view('welcome')->name;
+    return view('auth.login')->name;
 });
 
 Route::get('/dashboard', [AuthController::class, 'dashboard'])->name('dashboard');
