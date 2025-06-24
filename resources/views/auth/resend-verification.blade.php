@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Register - Flexy Free Bootstrap Admin Template')
+@section('title', 'Register - Cyber Game')
 
 @section('content')
 <div class="position-relative overflow-hidden text-bg-light min-vh-100 d-flex align-items-center justify-content-center">
@@ -10,7 +10,7 @@
                 <div class="card mb-0">
                     <div class="card-body">
                         <a href="{{ route('dashboard') }}" class="text-nowrap logo-img text-center d-block py-3 w-100">
-                            <img src="{{ asset('assets/images/logos/logo.svg') }}" alt="">
+                            <img src="{{ asset('assets/images/logos/logo.webp') }}" alt="">
                         </a>
                         <p class="text-center">Your Social Campaigns</p>
                        <form method="POST" action="{{ route('auth.email.resend') }}">

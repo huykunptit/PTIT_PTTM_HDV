@@ -63,3 +63,21 @@ Route::prefix('api/category')->name('api.category.')->group(function () {
     Route::get('/{id}/search', [CategoryController::class, 'searchSubCategories'])->name('searchSub'); // Search subcategories
     Route::get('/tree', [CategoryController::class, 'getCategoryTree'])->name('tree'); // Get category tree
 });
+
+
+use App\Http\Controllers\ProductsController;
+
+// WEB
+Route::resource('products', ProductsController::class)->names('products');
+
+// API
+Route::prefix('api/product')->name('api.product.')->group(function () {
+    Route::get('/products', [ProductsController::class, 'index'])->name('list');
+    Route::post('/products/{product}/upload-image', [ProductsController::class, 'uploadImage'])->name('uploadImage');
+    Route::get('/night-combos', [ProductsController::class, 'listNightCombos'])->name('nightCombos.list');
+    Route::post('/night-combos', [ProductsController::class, 'storeNightCombo'])->name('nightCombos.create');
+    Route::get('/night-combos/{combo}', [ProductsController::class, 'getCombo'])->name('nightCombos.get');
+    Route::put('/night-combos/{combo}', [ProductsController::class, 'updateCombo'])->name('nightCombos.update');
+    Route::delete('/night-combos/{combo}', [ProductsController::class, 'destroyCombo'])->name('nightCombos.delete');
+    Route::get('/night-combos/active', [ProductsController::class, 'getActiveNightCombos'])->name('nightCombos.active');
+});

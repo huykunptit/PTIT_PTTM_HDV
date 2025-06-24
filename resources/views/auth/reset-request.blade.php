@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Register - Flexy Free Bootstrap Admin Template')
+@section('title', 'Register - Cyber Game')
 
 @section('content')
 <div class="position-relative overflow-hidden text-bg-light min-vh-100 d-flex align-items-center justify-content-center">
